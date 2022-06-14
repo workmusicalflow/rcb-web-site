@@ -135,3 +135,29 @@ nav {
   padding: 2em;
   text-align: center;
 }
+/*gallerie*/
+.conteneur-gallerie {
+  width: 95%;
+  margin: auto;
+  padding: 3rem;
+}
+.conteneur-gallerie h1 {
+  text-align: center;
+}
+.mygallery {
+  display: flex;
+  display: -ms-flexbox;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+.column {
+  flex: 33.33%;
+  -ms-flex: 33.33%;
+  max-width: 33.33%;
+  padding: 0 4px;
+}
+.column img {
+  width: 100%;
+  margin-top: 8px;
+}
